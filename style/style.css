@@ -1,0 +1,176 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #38A3A5;
+}
+
+form {
+  background-color: #57CC99;
+  width: 335px;
+  height: 611px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 900px) {
+  form {
+    width: 500px;
+  }
+}
+
+form .title {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+form .title Label {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 900px) {
+  form .title Label {
+    font-size: 35px;
+  }
+}
+
+form .input1 {
+  margin-bottom: 10px;
+}
+
+form .input2 {
+  margin-bottom: 10px;
+}
+
+form .size {
+  width: 250px;
+  height: 40px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 900px) {
+  form .size {
+    width: 330px;
+    height: 50px;
+  }
+}
+
+form .operators {
+  margin-bottom: 10px;
+}
+
+form .operators .operator-btn {
+  width: 50px;
+  height: 45px;
+  padding: 5px 5px;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+form .operators .operator-btn:hover {
+  background-color: green;
+}
+
+@media screen and (min-width: 900px) {
+  form .operators .operator-btn {
+    width: 60px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  form .operators .operator-btn:first-child {
+    margin-left: 0;
+  }
+}
+
+form .button {
+  width: 150px;
+  height: 40px;
+  margin-bottom: 20px;
+  background-color: #152D35;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border: 1px solid #152D35;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+form .button:hover {
+  background-color: white;
+  color: #152D35;
+}
+
+@media screen and (min-width: 900px) {
+  form .button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+  }
+}
+
+form .result Label {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 900px) {
+  form .result Label {
+    font-size: 60px;
+  }
+}
+
+form .operator-name Label {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 900px) {
+  form .operator-name Label {
+    font-size: 30px;
+  }
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.active {
+  background-color: green;
+  border: 1px solid white;
+}
+/*# sourceMappingURL=style.css.map */

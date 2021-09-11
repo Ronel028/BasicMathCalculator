@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Basic Math Calculator</title>
+</head>
+<body>
+    <form action="/">
+        <div class="title">
+            <Label>Basic Math Calculator</Label>
+        </div>
+        <div class="input1">
+            <input class="size" type="number" id="firstNumber" placeholder="First Number" required>
+        </div>
+        <div class="input2">
+            <input class="size" type="number" id="secondNumber" placeholder="Second Number" required>
+        </div>
+        <div class="operators">
+            <button type="button" class="operator-btn cursor" id="add" value="+">+</button>
+            <button type="button" class="operator-btn cursor" id="subtract" value="-">-</button>
+            <button type="button" class="operator-btn cursor" id="multiply" value="*">*</button>
+            <button type="button" class="operator-btn cursor" id="divide" value="/">/</button>
+        </div>
+        <div class="btn">
+            <button class="button cursor" id="calculate" type="button">Calculate</button>
+        </div>
+        <div class="operator-name">
+            <Label id="op-name">...</Label>
+        </div>
+        <div class="result">
+            <Label id="result">...</Label>
+        </div>
+    </form>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
